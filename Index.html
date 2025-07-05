@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+    <!-- Link to CSS -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Google Fonts (for an elegant look) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome (for icons) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles@2.12.0/tsparticles.bundle.min.js"></script>
+</head>
+<body>
+    <!-- Header & Navigation -->
+<header>
+    <nav>
+        <a href="#hero" class="logo">Nimasha</a>
+        <ul id="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <!-- Add this Hamburger Menu Icon -->
+        <div id="menu-toggle">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+</header>
+
+    <main>
+        <!-- Hero Section -->
+<section id="hero" class="hero">
+    <div class="hero-content">
+        <div class="hero-text">
+            <h1>Hello, I'm Nimasha</h1>
+            <p>A Passionate Front-End Developer, creating beautiful and intuitive web experiences.</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn">View My Work</a>
+                <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="images/profile.jpg" alt="A professional photo of you">
+        </div>
+    </div>
+    <a href="#about" class="scroll-down-link">
+        <div class="scroll-down"></div>
+    </a>
+</section>
+
+        <!-- About Section -->
+        <section id="about" class="content-section">
+            <div class="container">
+                <h2>About Me</h2>
+                <div class="about-content">
+                    <img src="images/profile.jpg" alt="Your Name" class="profile-pic">
+                    <p>Welcome to my corner of the web! I am a dedicated front-end developer with a passion for creating clean, responsive, and user-friendly web applications. I specialize in HTML, CSS, and JavaScript, and I love bringing ideas to life in the browser. Feel free to explore my projects and get in touch!</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="content-section">
+            <div class="container">
+                <h2>My Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-item">HTML5</div>
+                    <div class="skill-item">CSS3</div>
+                    <div class="skill-item">JavaScript</div>
+                    <div class="skill-item">React</div>
+                    <div class="skill-item">WordPress</div>
+                    <div class="skill-item">Laravel</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="content-section">
+            <div class="container">
+                <h2>My Projects</h2>
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <div class="project-card">
+                        <img src="images/project1.jpg" alt="Project 1">
+                        <div class="project-info">
+                            <h3>UniNotify</h3>
+                            <p>**UniNotify** is a centralized platform for managing university events and notices. It displays weekly event schedules from clubs and sports teams, helping students and staff stay updated easily. Built with **HTML, CSS, Bootstrap, JavaScript, PHP (OOP), and MySQL**, it ensures a responsive, user-friendly experience with **email notifications** for timely updates.
+</p><br><br><br>
+                            <div class="project-links">
+                                <a href="#" target="_blank">Live Demo</a>
+                                <a href="#" target="_blank">Source Code</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Project 2 -->
+                    <div class="project-card">
+                        <img src="images/project2.jpg" alt="Project 2">
+                        <div class="project-info">
+                            <h3>DineDirect</h3>
+                            <p>**DineDirect** is a modern food delivery web app designed for a seamless ordering experience. It features **smart user authentication, an interactive menu with live filtering, a dynamic cart, smooth checkout, order tracking, and order history** to revisit your favorite meals. Built with **HTML, CSS, JavaScript, Bootstrap, PHP, and MySQL**, DineDirect blends **tech and taste** to make food ordering effortless.
+</p>
+                            <div class="project-links">
+                                <br>
+                                <a href="#" target="_blank">Live Demo</a>
+                                <a href="#" target="_blank">Source Code</a>
+                            </div>
+                        </div>
+                    </div>
+                     <!-- Add more projects as needed -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Resume Section -->
+        <section id="resume" class="content-section">
+            <div class="container text-center">
+                <h2>Resume</h2>
+                <p>You can view and download my resume by clicking the button below.</p>
+                <a href="https://cdn.prod.website-files.com/652e8c998f656fbf00cb7c99/666fce6b01f0798ffe422294_ANViPOwSW-photo.png" class="btn" download>Download Resume</a>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="content-section">
+            <div class="container text-center">
+                <h2>Get In Touch</h2>
+                <p>I'm currently open to new opportunities. Feel free to reach out!</p>
+                <div class="social-links">
+                    <a href="mailto:youremail@example.com"><i class="fas fa-envelope"></i></a>
+                    <a href="https://github.com/DMNDKDasanayaka" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/nimasha-dulmini-85a95131b/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Nimasha. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Link to JavaScript -->
+    <script src="script.js"></script>
+    </body>
+</body>
+</html>
